@@ -61,3 +61,7 @@ nnoremap <C-f> :NERDTreeFind<CR>
 " Indentline
 " Vim
 
+" Buffers
+nnoremap <leader>k :bnext<CR>
+nnoremap <leader>j :bprevious<CR>
+nnoremap <leader>q :bdelete<CR>

@@ -21,8 +21,23 @@ highlight ColoColumn ctermbg=0 guibg=lightgrey
 "Plug config
 call plug#begin('~/.local/share/nvim/plugged')
 
+" Themes
 Plug 'ghifarit53/tokyonight-vim'
+
+"Visual
+Plug 'ryanoasis/vim-devicons'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+" Functionality
+Plug 'yggdroot/indentline'
 Plug 'preservim/nerdtree'
+
+" Git
+Plug 'mhinz/vim-signify'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
+Plug 'junegunn/gv.vim'
 
 call plug#end()
 
@@ -42,3 +57,7 @@ nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
+
+" Indentline
+" Vim
+
